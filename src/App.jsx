@@ -1,13 +1,15 @@
-
+import Formulario from './components/Formulario'
 import './App.css'
 
 const App = () => {
-  
+
 
   return (
-    <>
-      <h1>Hello World!!!!</h1>
-    </>
+    <div className="contenedor-principal">
+      {/* Logo IMG */}
+      {/*  */}
+      <Formulario />
+    </div>
   )
 }
 
